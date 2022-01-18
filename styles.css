@@ -132,3 +132,29 @@ a {
 #icon:hover {
     transform: rotate(360deg) scale(1.2);
 }
+
+
+@media screen and (max-height: 700px) {
+    .calc {
+        margin-top: 30px;
+    }
+    .background {
+        height: 500px;
+    }
+
+    .lowButton{
+        gap: 1px;
+    }
+
+    .lowButton div{
+        padding: 10px;
+    }    
+
+    .lowButton div button{
+        width: 23%;
+        height: 130%;
+    }    
+    footer {
+        margin-top: 10px;
+    }
+}
