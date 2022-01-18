@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Biryani";
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.calc {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.background {
+    background-color: rgb(167, 167, 167);
+    width: 400px;
+    height: 615px;
+    border: black 3px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output {
+    margin-top: 18px;
+    background-color: rgb(233, 233, 233);
+    width: 90%;
+    height: 25%;
+    border: black 3px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.outputnum {
+    width: 100%;
+    height: 40%;
+    margin: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.buttons {
+    margin-top: 10px;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upButton {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete, .clear {
+    width: 48%;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
+.delete {
+    background-color: rgb(255, 112, 112);
+}
+
+.clear {
+    background-color: rgb(113, 113, 255);
+}
+
+.lowButton{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.lowButton div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowButton div button{
+    width: 23%;
+    height: 180%;
+    border: black 3px solid;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    position: fixed;
+    bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+#icon {
+    transition: 0.5s;
+}
+
+#icon:hover {
+    transform: rotate(360deg) scale(1.2);
+}
